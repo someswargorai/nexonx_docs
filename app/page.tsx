@@ -417,6 +417,7 @@ export default function Home() {
                       src="https://res.cloudinary.com/dpacclyw4/image/upload/v1781975840/banner_in7wjs.png" 
                       width={500}
                       height={500}
+                      loading="eager"
                       alt="Nexonx component preview" 
                       style={{ width: "100%", height: "140px", objectFit: "cover", display: "block" }} 
                     />
@@ -589,6 +590,7 @@ export function Actions() {
                     src="https://res.cloudinary.com/dpacclyw4/image/upload/v1781975840/banner_in7wjs.png"
                     width={500}
                     height={500}
+                    loading="eager"
                     alt="Nexonx component preview" 
                     style={{ width: "100%", height: "160px", objectFit: "cover", display: "block" }} 
                   />
