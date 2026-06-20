@@ -314,7 +314,7 @@ export default function Home() {
             </div>
             <div className="nx-logo-text flex gap-2 items-center">
               <span className="nx-logo-name">Nexonx</span>
-              <span className="nx-logo-sub">Component Library</span>
+              <span className="nx-logo-sub hidden sm:block">Component Library</span>
             </div>
           </a>
 
