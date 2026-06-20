@@ -302,8 +302,8 @@ export default function Home() {
 
   useEffect(() => {
     const attr = document.documentElement.getAttribute("data-theme");
-    if (attr === "light" || attr === "dark") setTheme(attr);
-    setMounted(true);
+    if (attr === "light" || attr === "dark") setTimeout(()=>setTheme(attr),0);
+    setTimeout(()=>setMounted(true),0);
   }, []);
 
   const toggleTheme = () => {
