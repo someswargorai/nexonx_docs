@@ -23,7 +23,7 @@ export default function AvatarSection() {
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="2"/><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z" opacity=".3"/></svg>
             Preview
           </div>
-          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyCenter: "center", gap: "16px", padding: "10px 0" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center", gap: "16px", padding: "10px 0" }}>
             {/* Circular Image with Online Status */}
             <span className="relative inline-flex shrink-0 items-center justify-center overflow-hidden select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 rounded-full h-12 w-12 border border-zinc-200/50 dark:border-zinc-800">
               <img 
