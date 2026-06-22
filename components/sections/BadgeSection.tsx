@@ -45,7 +45,7 @@ export default function BadgeSection() {
             </span>
 
             {/* Warning with dot */}
-            <span className="w-[70px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-amber-50 dark:bg-amber-500/15 text-amber-700 dark:text-amber-300 hover:bg-amber-100/80 dark:hover:bg-amber-500/25 h-7 px-4 pl-3 text-xs transition-colors">
+            <span className="w-[78px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-amber-50 dark:bg-amber-500/15 text-amber-700 dark:text-amber-300 hover:bg-amber-100/80 dark:hover:bg-amber-500/25 h-7 px-4 pl-3 text-xs transition-colors">
               <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-600 dark:bg-amber-400 opacity-70" />
               Attention
             </span>
