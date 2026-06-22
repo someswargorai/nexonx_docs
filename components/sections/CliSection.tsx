@@ -4,6 +4,7 @@ import React from "react";
 import { SectionHead, IconTerminal } from "@/components/DocsShared";
 
 const commands = [
+  { title: "Add all components",  cmd: "npx nexonx add all",         detail: "Adds every component registered in registry." },
   { title: "List templates",  cmd: "npx nexonx list",         detail: "Shows every component registered in registry/components.json." },
   { title: "Add button",      cmd: "npx nexonx add button",   detail: "Copies components/button.tsx and creates shared utilities when needed." },
   { title: "Add card",        cmd: "npx nexonx add card",     detail: "Copies components/card.tsx for content previews, panels, and media cards." },
