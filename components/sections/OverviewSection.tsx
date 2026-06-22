@@ -5,8 +5,8 @@ import Image from "next/image";
 import { IconArrow, IconZap, IconPackage, IconLayers, IconCopy, IconGrid } from "@/components/DocsShared";
 
 const stats = [
-  { id: "version",    value: "1.0.8",   label: "Version" },
-  { id: "components", value: "8",       label: "Components" }, // Updated components count to 8
+  { id: "version",    value: "1.0.9",   label: "Version" },
+  { id: "components", value: "9",       label: "Components" }, // Updated components count to 9
   { id: "source",     value: "Source",  label: "Copy Model" },
   { id: "styling",    value: "Tailwind", label: "Styling" },
 ];
