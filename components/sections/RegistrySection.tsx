@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { CodeBlock, SectionHead, DocsTable } from "@/components/DocsShared";
 
 const copiedFiles = [
@@ -8,6 +7,7 @@ const copiedFiles = [
   ["badge",           "components/badge.tsx"],
   ["button",          "components/button.tsx"],
   ["card",            "components/card.tsx"],
+  ["input",           "components/input.tsx"],
   ["icon",            "components/icon.tsx"],
   ["loader",          "components/loader.tsx"],
   ["separator",       "components/separator.tsx"],
@@ -41,7 +41,10 @@ const registryJson = `{
   },
   "badge": {
     "files": ["components/badge.tsx"]
-  }
+  },
+  "input": {
+    "files": ["components/input.tsx"]
+  },
 }`;
 
 export default function RegistrySection() {

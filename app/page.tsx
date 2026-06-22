@@ -18,6 +18,7 @@ import BadgeSection from "@/components/sections/BadgeSection";
 import ButtonSection from "@/components/sections/ButtonSection";
 import CardSection from "@/components/sections/CardSection";
 import IconSection from "@/components/sections/IconSection";
+import InputSection from "@/components/sections/InputSection";
 import LoaderSection from "@/components/sections/LoaderSection";
 import SeparatorSection from "@/components/sections/SeparatorSection";
 import TypographySection from "@/components/sections/TypographySection";
@@ -117,6 +118,7 @@ export default function Home() {
           <ButtonSection />
           <CardSection />
           <IconSection />
+          <InputSection />
           <LoaderSection />
           <SeparatorSection />
           <TypographySection />

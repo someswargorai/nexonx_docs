@@ -145,6 +145,13 @@ export const IconType = () => (
   </svg>
 );
 
+export const IconInput = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect width="20" height="12" x="2" y="6" rx="2" />
+    <path d="M6 12h4" />
+  </svg>
+);
+
 // --- Navigation Map & Config ---
 export const navItems = [
   { id: "overview",   label: "Overview" },
@@ -155,6 +162,7 @@ export const navItems = [
   { id: "button",     label: "Button" },
   { id: "card",       label: "Card" },
   { id: "icon",       label: "Icon" },
+  { id: "input",      label: "Input" },
   { id: "loader",     label: "Loader" },
   { id: "separator",  label: "Separator" },
   { id: "typography", label: "Typography" },
@@ -171,6 +179,7 @@ export const navIcons: Record<string, React.FC> = {
   button:     IconGrid,
   card:       IconLayers,
   icon:       IconStar,
+  input:      IconInput,
   loader:     IconLoader,
   separator:  IconSeparator,
   typography: IconType,

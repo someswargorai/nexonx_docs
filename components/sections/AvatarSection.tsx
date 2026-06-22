@@ -25,32 +25,40 @@ export default function AvatarSection() {
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center", gap: "16px", padding: "10px 0" }}>
             {/* Circular Image with Online Status */}
-            <span className="relative inline-flex shrink-0 items-center justify-center overflow-hidden select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 rounded-full h-12 w-12 border border-zinc-200/50 dark:border-zinc-800">
-              <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" 
-                className="h-full w-full object-cover" 
-                alt="Jane Doe" 
-              />
-              <span className="absolute rounded-full ring-2 ring-white dark:ring-zinc-950 bg-emerald-500 h-3.5 w-3.5 bottom-0 right-0" />
+            <span className="relative inline-flex shrink-0 items-center justify-center select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 rounded-full h-12 w-12 border border-zinc-200/50 dark:border-zinc-800">
+              <span className="flex h-full w-full items-center justify-center overflow-hidden rounded-[inherit]">
+                <img 
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" 
+                  className="h-full w-full object-cover" 
+                  alt="Jane Doe" 
+                />
+              </span>
+              <span className="absolute rounded-full ring-2 ring-white dark:ring-zinc-950 bg-emerald-500 h-3.5 w-3.5 bottom-0 right-0 z-10" />
             </span>
 
             {/* Initials with Away Status */}
-            <span className="relative inline-flex shrink-0 items-center justify-center overflow-hidden select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 rounded-full h-10 w-10 font-semibold text-xs border border-zinc-200 dark:border-zinc-700">
-              SG
-              <span className="absolute rounded-full ring-2 ring-white dark:ring-zinc-950 bg-amber-500 h-2.5 w-2.5 bottom-0 right-0" />
+            <span className="relative inline-flex shrink-0 items-center justify-center select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 rounded-full h-10 w-10 font-semibold text-xs border border-zinc-200 dark:border-zinc-700">
+              <span className="flex h-full w-full items-center justify-center overflow-hidden rounded-[inherit]">
+                SG
+              </span>
+              <span className="absolute rounded-full ring-2 ring-white dark:ring-zinc-950 bg-amber-500 h-2.5 w-2.5 bottom-0 right-0 z-10" />
             </span>
 
             {/* Square Avatar */}
-            <span className="relative inline-flex shrink-0 items-center justify-center overflow-hidden select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 rounded-lg h-10 w-10 font-semibold text-xs border border-zinc-200 dark:border-zinc-700">
-              NX
+            <span className="relative inline-flex shrink-0 items-center justify-center select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 rounded-lg h-10 w-10 font-semibold text-xs border border-zinc-200 dark:border-zinc-700">
+              <span className="flex h-full w-full items-center justify-center overflow-hidden rounded-[inherit]">
+                NX
+              </span>
             </span>
 
             {/* Fallback Placeholder (User Icon) */}
-            <span className="relative inline-flex shrink-0 items-center justify-center overflow-hidden select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-400 dark:text-zinc-500 rounded-full h-8 w-8 border border-zinc-200 dark:border-zinc-800">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-                <circle cx="12" cy="7" r="4" />
-              </svg>
+            <span className="relative inline-flex shrink-0 items-center justify-center select-none bg-zinc-100 dark:bg-zinc-800 text-zinc-400 dark:text-zinc-500 rounded-full h-8 w-8 border border-zinc-200 dark:border-zinc-800">
+              <span className="flex h-full w-full items-center justify-center overflow-hidden rounded-[inherit]">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </span>
             </span>
           </div>
         </div>

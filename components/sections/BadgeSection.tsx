@@ -29,34 +29,34 @@ export default function BadgeSection() {
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "8px", padding: "10px 0" }}>
             {/* Default */}
-            <span className="w-[70px] inline-flex justify-center items-center gap-1 rounded-full font-medium bg-zinc-100 dark:bg-white/10 text-zinc-700 dark:text-zinc-300 h-6 px-6 text-xs">
+            <span className="w-[70px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-100 hover:bg-zinc-200/80 dark:hover:bg-zinc-700 h-7 px-5 text-xs transition-colors">
               Default
             </span>
 
             {/* Primary with dot */}
-            <span className="w-[70px] inline-flex justify-center items-center gap-1 rounded-full font-medium bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 h-6 px-4 text-xs">
+            <span className="w-[70px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100/80 dark:hover:bg-indigo-500/25 h-7 px-4 pl-3 text-xs transition-colors">
               <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-600 dark:bg-indigo-400 opacity-70" />
               Active
             </span>
 
             {/* Success */}
-            <span className="w-[70px] inline-flex justify-center items-center gap-1 rounded-full font-medium bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 h-6 px-4 text-xs">
+            <span className="w-[70px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-100/80 dark:hover:bg-emerald-500/25 h-7 px-5 text-xs transition-colors">
               Success
             </span>
 
             {/* Warning with dot */}
-            <span className="w-[70px] inline-flex justify-center items-center gap-1 rounded-full font-medium bg-amber-50 dark:bg-amber-500/15 text-amber-700 dark:text-amber-300 h-6 px-4 text-xs">
+            <span className="w-[70px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-amber-50 dark:bg-amber-500/15 text-amber-700 dark:text-amber-300 hover:bg-amber-100/80 dark:hover:bg-amber-500/25 h-7 px-4 pl-3 text-xs transition-colors">
               <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-600 dark:bg-amber-400 opacity-70" />
               Attention
             </span>
 
             {/* Danger */}
-            <span className="w-[70px] inline-flex justify-center items-center gap-1 rounded-full font-medium bg-red-50 dark:bg-red-500/15 text-red-700 dark:text-red-300 h-6 px-4 text-xs">
+            <span className="w-[70px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-red-50 dark:bg-red-500/15 text-red-700 dark:text-red-300 hover:bg-red-100/80 dark:hover:bg-red-500/25 h-7 px-5 text-xs transition-colors">
               Failed
             </span>
 
             {/* Outline */}
-            <span className="w-[70px] inline-flex justify-center items-center gap-1 rounded-full font-medium bg-transparent text-zinc-600 dark:text-zinc-300 shadow-[0_0_0_1px_rgba(0,0,0,0.12)_inset] dark:shadow-[0_0_0_1px_rgba(255,255,255,0.14)_inset] h-6 px-4 text-xs">
+            <span className="w-[70px] inline-flex justify-center items-center gap-1.5 rounded-full font-medium bg-transparent text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 h-7 px-5 text-xs transition-colors">
               Pending
             </span>
           </div>
