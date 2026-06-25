@@ -13,6 +13,8 @@ const commands = [
   { title: "Add loader",      cmd: "npx nexonx add loader",   detail: "Copies components/loader.tsx for inline spinner loading indicators." },
   { title: "Add separator",   cmd: "npx nexonx add separator",detail: "Copies components/separator.tsx for dividing visual containers and text lines." },
   { title: "Add typography",  cmd: "npx nexonx add typography",detail: "Copies components/typography.tsx for unified type sizing and line-clamping." },
+  { title: "Add slider",  cmd: "npx nexonx add slider",detail: "Copies components/slider.tsx for unified Interactive sliders for adjusting values, ranges, and settings with smooth dragging and visual feedback." },
+  { title: "Add input",  cmd: "npx nexonx add input",detail: "Copies components/typography.tsx for Flexible input fields for forms, search bars, authentication flows, and data entry with consistent styling and validation support." },
 ];
 
 export default function CliSection() {
