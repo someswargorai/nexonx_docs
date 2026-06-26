@@ -5,8 +5,8 @@ import Image from "next/image";
 import { IconArrow, IconZap, IconPackage, IconLayers, IconCopy, IconGrid } from "@/components/DocsShared";
 
 const stats = [
-  { id: "version",    value: "1.1.0",   label: "Version" },
-  { id: "components", value: "10",       label: "Components" }, // Updated components count to 9
+  { id: "version",    value: "1.2.0",   label: "Version" },
+  { id: "components", value: "11",       label: "Components" }, // Updated components count to 9
   { id: "source",     value: "Source",  label: "Copy Model" },
   { id: "styling",    value: "Tailwind", label: "Styling" },
 ];
@@ -27,7 +27,7 @@ export default function OverviewSection() {
           <div className="nx-hero-badges">
             <span className="nx-badge">
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-              nexonx@1.1.0
+              nexonx@1.2.0
             </span>
             <span className="nx-badge">
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>

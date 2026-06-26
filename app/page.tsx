@@ -20,6 +20,7 @@ import CardSection from "@/components/sections/CardSection";
 import IconSection from "@/components/sections/IconSection";
 import InputSection from "@/components/sections/InputSection";
 import SliderSection from "@/components/sections/SliderSection";
+import DialogSection from "@/components/sections/DialogSection";
 import LoaderSection from "@/components/sections/LoaderSection";
 import SeparatorSection from "@/components/sections/SeparatorSection";
 import TypographySection from "@/components/sections/TypographySection";
@@ -121,6 +122,7 @@ export default function Home() {
           <IconSection />
           <InputSection />
           <SliderSection />
+          <DialogSection />
           <LoaderSection />
           <SeparatorSection />
           <TypographySection />
