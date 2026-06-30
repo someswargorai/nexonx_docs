@@ -21,6 +21,7 @@ import IconSection from "@/components/sections/IconSection";
 import InputSection from "@/components/sections/InputSection";
 import SliderSection from "@/components/sections/SliderSection";
 import DialogSection from "@/components/sections/DialogSection";
+import AudioPlayerSection from "@/components/sections/AudioPlayerSection";
 import LoaderSection from "@/components/sections/LoaderSection";
 import SeparatorSection from "@/components/sections/SeparatorSection";
 import TypographySection from "@/components/sections/TypographySection";
@@ -123,6 +124,7 @@ export default function Home() {
           <InputSection />
           <SliderSection />
           <DialogSection />
+          <AudioPlayerSection />
           <LoaderSection />
           <SeparatorSection />
           <TypographySection />
